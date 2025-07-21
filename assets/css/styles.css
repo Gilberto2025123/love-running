@@ -3,6 +3,17 @@
     margin: 0; 
     box-sizing:border-box;
 }
+/*General styles rule*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+/*Generic style rule*/
+     color:#3a3a3a;
+}
+
+
 /*Header*/
 header { background-color: lightcoral;
 
