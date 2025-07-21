@@ -1,12 +1,14 @@
 /*Google fonts imports*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap')
 
-/*Asterisk wildcard selector to overide default styles added by the browser */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+/*Asterisk wildcard selector to overide default styles added by the browser*/
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+
 /*General styles rule*/
 
 body {
@@ -15,12 +17,14 @@ body {
   flex-direction: column;
   /*Generic style rule*/
   color: #3a3a3a;
+  font-family: 'Lato', sans-serif;
 }
 
 /*Header*/
 header {
   background-color: lightcoral;
 }
+
 /*Main content*/
 main {
   background-color: lightblue;
@@ -29,6 +33,7 @@ main {
 
   flex: 1 0 auto;
 }
+
 /*Footerr*/
 footer {
   background-color: orange;
