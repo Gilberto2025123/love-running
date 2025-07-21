@@ -22,6 +22,10 @@ header { background-color: lightcoral;
 /*Main content*/
 main { background-color: lightblue;
 
+    /*Make main element take up any surplus space*/
+      
+    flex: 1 0 auto;
+
 }
 /*Footerr*/
 footer { background-color: orange;
