@@ -102,7 +102,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("assets/images/hero-image.webp") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -150,7 +150,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url("assets/images/reasons-image.webp") no-repeat top center / cover;
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -168,7 +168,7 @@ main {
 
 /* Meetup Times section */
 #times {
-    background: url("assets/images/dublin-city.webp") no-repeat center/cover;
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +204,7 @@ main {
 
 /* Form */
 #signup {
-    background-image: url("assets/images/signup-image.webp");
+    background-image: url("../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -387,7 +387,7 @@ main {
     }
 
     #benefits-image {
-        order: 0
+        order: 0;
     }
 
     #benefits-mental {
